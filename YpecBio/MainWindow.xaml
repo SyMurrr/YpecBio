@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YpecBio"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="200" Width="240">
     <Grid>
-        <Label x:Name="label" Content="На контентичах" HorizontalAlignment="Left" Margin="221,150,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label1" Content="ZZZZZZ" HorizontalAlignment="Left" Margin="279,217,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox_log" HorizontalAlignment="Left" Margin="353,150,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox_pass" HorizontalAlignment="Left" Margin="353,217,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Логин" HorizontalAlignment="Left" Margin="21,44,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Пароль" HorizontalAlignment="Left" Margin="21,75,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_log" HorizontalAlignment="Left" Margin="93,44,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_pass" HorizontalAlignment="Left" Margin="93,79,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button_log" Content="Войти" HorizontalAlignment="Left" Margin="68,129,0,0" VerticalAlignment="Top" Height="22" Width="85"/>
 
     </Grid>
 </Window>
