@@ -9,8 +9,8 @@
     <Grid>
         <Label x:Name="label" Content="Логин" HorizontalAlignment="Left" Margin="21,44,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1" Content="Пароль" HorizontalAlignment="Left" Margin="21,75,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox_log" HorizontalAlignment="Left" Margin="93,44,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox_pass" HorizontalAlignment="Left" Margin="93,79,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_log" HorizontalAlignment="Left" Margin="93,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox_pass" HorizontalAlignment="Left" Margin="93,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="button_log" Content="Войти" HorizontalAlignment="Left" Margin="68,129,0,0" VerticalAlignment="Top" Height="22" Width="85"/>
 
     </Grid>
